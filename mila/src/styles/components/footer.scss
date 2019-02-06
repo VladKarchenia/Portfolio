@@ -1,0 +1,38 @@
+footer {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #dc007c;
+    .wrapper_content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+.bottom_logo {
+    height: 36px;
+    width: 142px;
+    background-image: url('img/footer_logo.png');
+    background-repeat: no-repeat;
+    margin: 20px 0;
+}
+
+.footer_info {
+    max-width: 550px;
+    color: $LIGHT_COLOR;
+    font-size: $FS_SUB;
+    margin: 30px 0;
+    &:first-child {
+        padding-bottom: 5px;
+    }
+}
+
+.lovata_logo {
+    height: 20px;
+    width: 111px;
+    background-image: url('img/lovata.png');
+    background-repeat: no-repeat;
+    margin: 20px 0;
+}
