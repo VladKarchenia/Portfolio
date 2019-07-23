@@ -5,7 +5,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <GiftList key='GiftList' />
+        <GiftList />
       </div>
     )
   }
